@@ -74,8 +74,3 @@ A simple, responsive contact form web application built with HTML, CSS, JavaScri
 
 Contributions are welcome! Please fork the repository and submit pull requests.
 
-
-## Contact
-
-For questions or feedback, please open an issue or contact the repository owner.
-
