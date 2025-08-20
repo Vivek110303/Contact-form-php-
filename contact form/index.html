@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm" method="POST" action="contact.php" onsubmit="return validateForm()">
+      <label>Name:</label>
+      <input type="text" name="name" id="name" placeholder="Your name">
+
+      <label>Email:</label>
+      <input type="email" name="email" id="email" placeholder="Your email">
+
+      <label>Message:</label>
+      <textarea name="message" id="message" rows="5" placeholder="Your message"></textarea>
+
+      <button type="submit">Send</button>
+      <p id="error" class="error"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
